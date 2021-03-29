@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/ground.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 771px;
+  animation-name: mainbg;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes mainbg {
+  0% {
+    background-image: url(../img/ground.png);
+  }
+  50% {
+    background-image: url(../img/bg2.png);
+  }
+  100% {
+    background-image: url(../img/bg3.png);
+  }
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: deeppink;
+}
+
+.facebook {
+  background-color: #3b9890;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #3b6698;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 66px;
+  margin-top: 0px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size:33px;
+}
+.heading h3{
+  font-weight:normal;
+}
+.heading span {
+  font-weight: bolder;
+  color: gold;
+}
+
+.text-contents span {
+  color:aqua;
+}
+
+.heading span {
+  font-weight: bolder;
+  color: gold;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.text-content {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #5f5d60;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 18px;
+  color:#5f5d60;
+  font-weight: bold;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color:#5dcaca;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7974;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 67px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #fff;
+}
+.footer-copyrigt {
+  text-align: center;
+  border-top: 2px solid #b2b6b8;
+  padding-bottom: 15px;
+}
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.team-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.team {
+  float: left;
+  width: 20%;
+}
+
+.team-icon {
+  position: relative;
+}
+.team-icon img {
+  width: 150px;
+  height: 168px;
+}
+
+.profile {
+  float: left;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.profile img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid thistle;
+  
+}
+
+.profile span {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  color: gold;
+  display: inline-block;
+}
+
+.profile p {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 80%;
+  color: lightgray;
+  display: inline-block;
+  margin-top: 5px;
+}
+.Work-wrapper {
+  padding-bottom: 171px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(../img/contrasgelap.jpg);
+  background-size: cover;
+  height:100% ;
+}
+.containers {
+    height: 100%;
+    max-width: auto;
+    width: 100%;
+    padding: 2px 15px;
+    margin: 0 auto;
+    color:#f7f7f7;
+    background-size: cover;
+}
+.headings {
+    float: left;
+    padding: 30px 15px 20px 15px;
+    margin-right: 10px;
+}
+.headings h2 {
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.headings p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.simbol {
+  padding: 30px 15px;
+  text-align: center;
+  margin: 28px 10px 0 0;
+  font-size: 20px;
+  float: left;
+}
+.simbol-icon i {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.simbols {
+  float: right;
+}
+
+.ico img {
+  float: right;
+  margin: -78px 0 12px 0;
+  size: 10%;
+}
+.sosmed a{
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+}

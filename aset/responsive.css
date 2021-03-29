@@ -1,0 +1,88 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size:32px;
+  }
+  .top-wrapper h2{
+    font-size:20px;
+  }
+  .lesson{
+    width:50%;
+    margin-bottom:60px;
+  }
+  .team {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .simbols {
+    float:none;
+    width: 30%;
+    margin-bottom: -129px;
+    font-size: small;
+  }
+  .simbol-icon i {
+    width: 100%;
+    size: 15px;
+  }
+  .team-wrapper h2,p{
+    position: center;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  span.menu-icon{
+    display:block;
+  }
+  .btn{
+    width:100%;
+  }
+  .facebook{
+    margin-bottom:10px;
+  }
+  .top-wrapper h1{
+    font-size:24px;
+    line-height:36px;
+  }
+  .top-wrapper p{
+    font-size:14px;
+    line-height:20px;
+  }
+  .top-wrapper{
+    text-align:left;
+  }
+  .lesson{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  footer{
+    text-align:center;
+  }
+  .team {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .simbol{
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+  .sosmed img{
+    float: none;
+    width: 10%;
+    margin-top: 12px;
+  }
+  .simbols {
+    float:none;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -129px;
+  }
+
+}
